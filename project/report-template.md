@@ -23,11 +23,11 @@ Score of model decreased from 1.80109 to 1.72344 when hyperparmeters values were
 I would send more time on hyperparameter tuning.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
+|model|num_stack_levels|num_bag_folds|num_bag_sets|score|
 |--|--|--|--|--|
-|initial|1|8|20|1.77730|
-|add_features|1|8|20|1.80109|
-|hpo|1|4|10|1.72344|
+|initial|1|8|20|1.79080|
+|add_features|1|8|20|1.33481|
+|hpo|1|4|10|1.34110 |
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
